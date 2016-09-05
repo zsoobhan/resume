@@ -20,142 +20,155 @@
 
 % Custom Commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
-\newcommand{\resheading}[1]{{\large \colorbox{mygrey}
-                            {\begin{minipage}{\textwidth}
-                            {\textbf{#1 \vphantom{p\^{E}}}}
-                            \end{minipage}}}
-}
-\newcommand{\ressubheading}[4]{
-                \begin{tabular*}{180mm}{l@{\extracolsep{\fill}}r}
-                \textbf{#1} & #2 \\
-                \textit{#3} & \textit{#4} \\
-                \end{tabular*}\vspace{-6pt}
-}
-\newcommand{\resdescription}[1]{#1 \vspace{-0mm}}
+	\newcommand{\resheading}[1]{{\large \colorbox{mygrey}
+			{\begin{minipage}{\textwidth}
+					{\textbf{#1 \vphantom{p\^{E}}}}
+		\end{minipage}}}
+	}
+	\newcommand{\ressubheading}[4]{
+		\begin{tabular*}{180mm}{l@{\extracolsep{\fill}}r}
+			\textbf{#1} & #2 \\
+			\textit{#3} & \textit{#4} \\
+		\end{tabular*}\vspace{-6pt}
+	}
+	\newcommand{\resdescription}[1]{#1 \vspace{-0mm}}
 
-    \begin{document}
+	\begin{document}
 
-    \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
-        \textbf{\large Ziyad Soobhan MSci}   & \\
-        @zsoobhan                            & +44 7838 174 274 \\
-        me@zsoobhan.co.uk                    & \href{http://zsoobhan.co.uk}{www.zsoobhan.co.uk} \\
-    \end{tabular*}
-    \\
-
-
-    \resheading{Technical Skills}
-    \begin{itemize}
-        \item[]
-            \ressubheading{Languages}{}{}{}
-            \vspace{-0.2in}
-            \begin{itemize}
-                    \resitem{Proficient in Python}
-                    \resitem{Experienced in JavaScript, CSS, MATLAB, Bash, \LaTeX}
-                    \resitem{Familiar with Java, C\texttt{\#}, Go, SCSS, Less, Mathematica}
-            \end{itemize}
-        \item[]
-            \ressubheading{Software and Technologies}{}{}{}
-            \vspace{-0.2in}
-            \begin{itemize}
-                    \resitem{{\em Web Development}: Django, Django-Oscar, Cron, Fabric, Django CMS, FeinCMS, Google Analytics}
-                    \resitem{{\em Server Infrastructure}: Amazon Web Services, Supervisor, Apache, Nginx, Docker, Vagrant, Virtualenv}
-                    \resitem{{\em Data Analysis Packages}: Numpy, Pylab, Matplotlib, Origin, GNUplot, MS Excel}
-                    \resitem{{\em Version Control}: Git, Mercurial}
-                    \resitem{{\em Platforms}: Linux, OSX, Windows}
-                    \resitem{{\em Coding Practices}: TDD, Agile, Kanban, Scrum}
-            \end{itemize}
-    \end{itemize}
-
-    \resheading{Experience}
-    \begin{itemize}
-
-        \item[]
-            \ressubheading{Software Developer}{London}{Global Radio}{July 2015 - present}
-        \item[]
-            \resdescription{Full-Stack developer on highly distributed software primarily engineered in Python.}
-            \begin{itemize}
-                    \resitem{Maintaining highly complex legacy centralised Content Management Systems with dissociated, dependent services.}
-                    \resitem{Negotiating and coordinating new procedures to reconcile content-driven legacy projects with modern programming ethos.}
-                    \resitem{Implementing and re-factoring existing code-bases via cutting edge technologies conducive to robustness, modularity, and productivity.}
-                    \resitem{Collaborating with a large team of developers with varied skills to scope out work packets and deliver results effectively.}
-                    \resitem{Utilising all elements of the stack including complex caching, python code and JavaScript front-end to deliver completed features.}
-                    \resitem{Providing technical assistance to both technical and non-technical users.}
-            \end{itemize}
+	\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{\large Ziyad Soobhan MSci}   & \\
+		@zsoobhan                            & +44 7838 174 274 \\
+		me@zsoobhan.co.uk                    & \href{http://zsoobhan.co.uk}{www.zsoobhan.co.uk} \\
+	\end{tabular*}
+	\\
 
 
-        \item[]
-            \ressubheading{Software Developer}{London}{Tangent Snowball PLC}{November 2013 - June 2015}
-        \item[]
-            \resdescription{Primary back-end developer on numerous projects engineered in Python/Django.}
-            \begin{itemize}
-                    \resitem{Extending and enhancing Django-Oscar to create dynamic bespoke e-commerce solutions conforming to the Model-Template-View framework.}
-                    \resitem{Adapting to clientele needs by rapidly deploying and integrating novel functionality through various agile development techniques.}
-            \end{itemize}
+	\resheading{Technical Skills}
+	\begin{itemize}
+		\item[]
+			\ressubheading{Languages}{}{}{}
+			\vspace{-0.2in}
+			\begin{itemize}
+					\resitem{Proficient in Python}
+					\resitem{Experienced in JavaScript, CSS, MATLAB, Bash, \LaTeX}
+					\resitem{Familiar with Java, C\texttt{\#}, Go, SCSS, Less, Mathematica}
+			\end{itemize}
+		\item[]
+			\ressubheading{Software and Technologies}{}{}{}
+			\vspace{-0.2in}
+			\begin{itemize}
+					\resitem{{\em Web Development}: Django, Django-Oscar, Cron, Fabric, Django CMS, FeinCMS, Google Analytics}
+					\resitem{{\em Server Infrastructure}: Amazon Web Services, Supervisor, Apache, Nginx, Docker, Vagrant, Virtualenv}
+					\resitem{{\em Data Analysis Packages}: Numpy, Pylab, Matplotlib, Origin, GNUplot, MS Excel}
+					\resitem{{\em Version Control}: Git, Mercurial}
+					\resitem{{\em Continuous Integration}: Gitlab CI, Travis CI, Rundeck}
+					\resitem{{\em Platforms}: Linux, OSX, Windows}
+					\resitem{{\em Architectures}: Scalable, Micro-Services, Monolithic}
+					\resitem{{\em Coding Practices}: TDD, Agile, Kanban, Scrum, }
+			\end{itemize}
+	\end{itemize}
 
-        \item[]
-            \ressubheading{Software Developer (Data Analytics)}{London}{Ubiquity Press (Open-Access Publisher)}{March 2013 - November 2013}
-        \item[]
-            \resdescription{Developed and maintained an exploratory data analysis tool from which business and financial decisions were made in a fast-paced reactive environment with instant feedback from end-users. The functionality of the software included, but was not limited to the following:}
-            \begin{itemize}
-                    \resitem{Collated data using various external APIs into a structured database.}
-                    \resitem{Performed complex data analysis using mathematical libraries such as Numpy and Matplotlib.}
-                    \resitem{Provided graphical representations of results through an interactive web interface designed for non-technical end-users and implemented using Django.}
-                    \resitem{Included a web API which provided content to a number of academic journals.}
-            \end{itemize}
+	\resheading{Experience}
+	\begin{itemize}
 
-        \item[]
-            \ressubheading{Freelance Developer}{London}{Private Industry}{Feb 2013 - March 2013}
-        \item[]
-            \resdescription{Undertook a short project with a small company which began development using C\texttt{\#}.}
-            \begin{itemize}
-                    \resitem{Experimented with various ways of creating a secure connection over TCP using symmetric and asymmetric encryption.}
-            \end{itemize}
+		\item[]
+            \ressubheading{Software Developer (Contractor)}{London}{Pancentric Digital}{Feb 2016 - Present}
+		\item[]
+			\resdescription{Primary full-stack developer on numerous projects engineered in Python/Django with a focus on back-end server-side logic.}
+			\begin{itemize}
+                    \resitem{Providing support and maintenance on CMS-driven web applications with highly complex business-critical logic.}
+                    \resitem{Modernising existing codebases with an emphasis on Continuous Integration and best practices.}
+					\resitem{Introducing new processes to streamline the delivery of projects in accordance to deadlines.}
+					\resitem{Implementing and re-factoring existing code-bases via cutting edge technologies conducive to robustness, modularity, and productivity.}
+					\resitem{Assessing the viability of software development and delivering completed features in accordance to agreed terms.}
+			\end{itemize}
+		\item[]
+			\ressubheading{Software Developer}{London}{Global Radio}{July 2015 - Jan 2016}
+		\item[]
+			\resdescription{Full-Stack developer on highly distributed software primarily engineered in Python.}
+			\begin{itemize}
+					\resitem{Maintained highly complex legacy centralised Content Management Systems with dissociated, dependent services.}
+					\resitem{Negotiated and coordinated new procedures to reconcile content-driven legacy projects with modern programming ethos.}
+					\resitem{Collaborated with a large team of developers with varied skills to scope out work packets and deliver results effectively.}
+					\resitem{Utilised all elements of the stack including complex caching, python code and JavaScript front-end to deliver completed features.}
+					\resitem{Provided technical assistance to both technical and non-technical users.}
+			\end{itemize}
 
-        \item[]
-            \ressubheading{MSci Project}{RHUL Physics Dept}{Aperture Photometry Project}{Sept 2011 - March 2012}
-        \item[]
-            \resdescription{Created a Colour-Magnitude Diagram (CMD) for an open cluster of stars using a 12'' telescope, filters (B, V and R) and a thermoelectrically-cooled camera which yielded results consistent with previous studies.}
-            \begin{itemize}
-                    \resitem{Developed and implemented a data analysis strategy in python using Numpy and Matplotlib.}
-                    \resitem{Estimated the centres of point spread functions in the images with a bespoke star finding algorithm.}
-                    \resitem{Performed background subtractions for individual stars and applied Poisson statistics in matched two dimensional arrays.}
-            \end{itemize}
 
-        \item[]
-            \ressubheading{Nanofabrication Lab Assistant}{Royal Holloway}{SNS Junction Investigation}{July 2011 - August 2011}
-        \item[]
-            \resdescription{Worked under the supervision of Prof. V. Petrashov in the production of samples with Superconductive Normal Metal Superconductive (SNS) junctions.}
-            \begin{itemize}
-                    \resitem{Operated high specification equipment (Scanning Electron Microscopes, Optical Microscopes and cryogenic equipment i.e. \textsuperscript{3}He dilution refrigerators).}
-                    \resitem{Produced nanostructures using electron beam lithography and thin film deposition within clean room facilities.}
-            \end{itemize}
+		\item[]
+			\ressubheading{Software Developer}{London}{Tangent Snowball PLC}{November 2013 - June 2015}
+		\item[]
+			\resdescription{Primary back-end developer on numerous projects engineered in Python/Django.}
+			\begin{itemize}
+					\resitem{Engineered projects to handle high capacities using micro-service architecture and dynamic scaling.}
+					\resitem{Extended and enhanced Django-Oscar to create dynamic bespoke e-commerce solutions conforming to the Model-Template-View framework.}
+					\resitem{Adapted to clientele needs by rapidly deploying and integrating novel functionality through various agile development techniques.}
+			\end{itemize}
 
-        \item[]
-            \ressubheading{Sales Assistant}{London}{Neuhaus Chocolates}{June 2005 - March 2013}
-        \item[]
-            \resdescription{Worked part-time within all of their stores in London including Harrods and St. Pancras International. I also have passed the rigorous Harrods store approval and interviews.}
-            \begin{itemize}
-                    \resitem{Customer Service, handling of cash, dealing with customer complaints.}
-            \end{itemize}
+		\item[]
+			\ressubheading{Software Developer (Data Analytics)}{London}{Ubiquity Press (Open-Access Publisher)}{March 2013 - November 2013}
+		\item[]
+			\resdescription{Developed and maintained an exploratory data analysis tool from which business and financial decisions were made in a fast-paced reactive environment with instant feedback from end-users. The functionality of the software included, but was not limited to the following:}
+			\begin{itemize}
+					\resitem{Collated data using various external APIs into a structured database.}
+					\resitem{Performed complex data analysis using mathematical libraries such as Numpy and Matplotlib.}
+					\resitem{Provided graphical representations of results through an interactive web interface designed for non-technical end-users and implemented using Django.}
+					\resitem{Included a web API which provided content to a number of academic journals.}
+			\end{itemize}
 
-    \end{itemize}
+		\item[]
+			\ressubheading{Freelance Developer}{London}{Private Industry}{Feb 2013 - March 2013}
+		\item[]
+			\resdescription{Undertook a short project with a small company which began development using C\texttt{\#}.}
+			\begin{itemize}
+					\resitem{Experimented with various ways of creating a secure connection over TCP using symmetric and asymmetric encryption.}
+			\end{itemize}
 
-    \resheading{Education}
-    \begin{itemize}
-        \item[]
-            \ressubheading{Astrophysics MSci }{Egham, United Kingdom}{Royal Holloway University of London}{2008-2012}
+		\item[]
+			\ressubheading{MSci Project}{RHUL Physics Dept}{Aperture Photometry Project}{Sept 2011 - March 2012}
+		\item[]
+			\resdescription{Created a Colour-Magnitude Diagram (CMD) for an open cluster of stars using a 12'' telescope, filters (B, V and R) and a thermoelectrically-cooled camera which yielded results consistent with previous studies.}
+			\begin{itemize}
+					\resitem{Developed and implemented a data analysis strategy in python using Numpy and Matplotlib.}
+					\resitem{Estimated the centres of point spread functions in the images with a bespoke star finding algorithm.}
+					\resitem{Performed background subtractions for individual stars and applied Poisson statistics in matched two dimensional arrays.}
+			\end{itemize}
 
-        \item[]
-            \ressubheading{Human Spaceflight and Exploration Course (Pass with Distinction)}{Ume\r{a}, Sweden}{Ume\r{a} University}{2011}
+		\item[]
+			\ressubheading{Nanofabrication Lab Assistant}{Royal Holloway}{SNS Junction Investigation}{July 2011 - August 2011}
+		\item[]
+			\resdescription{Worked under the supervision of Prof. V. Petrashov in the production of samples with Superconductive Normal Metal Superconductive (SNS) junctions.}
+			\begin{itemize}
+					\resitem{Operated high specification equipment (Scanning Electron Microscopes, Optical Microscopes and cryogenic equipment i.e. \textsuperscript{3}He dilution refrigerators).}
+					\resitem{Produced nanostructures using electron beam lithography and thin film deposition within clean room facilities.}
+			\end{itemize}
 
-    \end{itemize}
+		\item[]
+			\ressubheading{Sales Assistant}{London}{Neuhaus Chocolates}{June 2005 - March 2013}
+		\item[]
+			\resdescription{Worked part-time within all of their stores in London including Harrods and St. Pancras International. I also have passed the rigorous Harrods store approval and interviews.}
+			\begin{itemize}
+					\resitem{Customer Service, handling of cash, dealing with customer complaints.}
+			\end{itemize}
 
-    \resheading{Additional Details and Interests}
-    \begin{itemize}
-        \item[] I am a native English speaker (with British Passport), fluent in French and Creole.\\
-            I have a passion rock climbing and enjoy cooking, as well as photography. \\
-    \end{itemize}
+	\end{itemize}
 
-    \textbf{References are available upon request.}
+	\resheading{Education}
+	\begin{itemize}
+		\item[]
+			\ressubheading{Astrophysics MSci }{Egham, United Kingdom}{Royal Holloway University of London}{2008-2012}
 
-    \end{document}
+		\item[]
+			\ressubheading{Human Spaceflight and Exploration Course (Pass with Distinction)}{Ume\r{a}, Sweden}{Ume\r{a} University}{2011}
+
+	\end{itemize}
+
+	\resheading{Additional Details and Interests}
+	\begin{itemize}
+		\item[] I am a native English speaker (with British Passport), fluent in French and Creole.\\
+			I have a passion rock climbing and enjoy cooking, as well as photography. \\
+	\end{itemize}
+
+	\textbf{References are available upon request.}
+
+	\end{document}
