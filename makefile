@@ -7,4 +7,7 @@ letter:
 	open cover_letter.pdf 
 
 clean:
-	rm *tex.bk
+	rm -f *tex.bk
+
+spelling:
+	aspell -c resume.tex
