@@ -26,19 +26,17 @@
 \setlength{\headinglength}{\textwidth-3.5mm}
 
 % Custom Commands
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}
+        {\begin{minipage}{\headinglength}
+            {\textbf{#1 \vphantom{p\^{E}}}}
+        \end{minipage}}}}
+\newcommand{\ressubheading}[4]
+    {\begin{tabular*}{180mm}{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-6pt}}
+\newcommand{\resdescription}[1]{#1 \vspace{-0mm}}
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
-    \newcommand{\resheading}[1]{{\large \colorbox{mygrey}
-            {\begin{minipage}{\headinglength}
-                {\textbf{#1 \vphantom{p\^{E}}}}
-            \end{minipage}}}
-    }
-    \newcommand{\ressubheading}[4]{
-        \begin{tabular*}{180mm}{l@{\extracolsep{\fill}}r}
-            \textbf{#1} & #2 \\
-            \textit{#3} & \textit{#4} \\
-        \end{tabular*}\vspace{-6pt}
-    }
-    \newcommand{\resdescription}[1]{#1 \vspace{-0mm}}
 
     \begin{document}
 
