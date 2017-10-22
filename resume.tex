@@ -7,6 +7,7 @@
 \usepackage{fontawesome}
 \usepackage{fontspec}
 \usepackage{color}
+\usepackage{calc}
 \usepackage[hidelinks]{hyperref}
 \definecolor{mygrey}{gray}{0.80}
 \raggedright{}
@@ -16,14 +17,18 @@
 % Margins
 \addtolength{\oddsidemargin}{-15mm}
 \addtolength{\evensidemargin}{-15mm}
-\addtolength{\textwidth}{30mm}
+\addtolength{\textwidth}{27mm}
 \addtolength{\topmargin}{-15mm}
 \addtolength{\textheight}{30mm}
+
+% Custom Lengths
+\newlength{\headinglength}
+\setlength{\headinglength}{\textwidth-3.5mm}
 
 % Custom Commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
     \newcommand{\resheading}[1]{{\large \colorbox{mygrey}
-            {\begin{minipage}{\textwidth}
+            {\begin{minipage}{\headinglength}
                 {\textbf{#1 \vphantom{p\^{E}}}}
             \end{minipage}}}
     }
@@ -37,10 +42,10 @@
 
     \begin{document}
 
-    \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
-        \textbf{\large Ziyad Soobhan MSci}   & \\
-        \faTwitter\quad  @zsoobhan           &   +44 7838 174 274\quad\faMobilePhone\\
-        \faEnvelope\quad me@zsoobhan.co.uk   &  \href{http://zsoobhan.co.uk}{www.zsoobhan.co.uk}\quad{}\faLink{}\\
+    \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}cr}
+        \textbf{\large Ziyad Soobhan MSci} & & London, UK\quad\faMapMarker\\
+        \faTwitter\quad  @zsoobhan         & & +44 7838 174 274\quad\faPhone\\
+        \faEnvelope\quad me@zsoobhan.co.uk & &\href{http://zsoobhan.co.uk}{www.zsoobhan.co.uk}\quad\faGlobe\\
     \end{tabular*}
     \\
 
