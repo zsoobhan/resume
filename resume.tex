@@ -41,7 +41,7 @@
 \begin{document}
 
     \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}cr}
-        \textbf{\large Ziyad Soobhan MSci} & & London, UK\quad\faMapMarker\\
+        \textbf{\large{Ziyad Soobhan} \sc\small{MSci}}  & & London, UK\quad\faMapMarker\\
         \faTwitter\quad  @zsoobhan         & & +44 7838 174 274\quad\faPhone\\
         \faEnvelope\quad me@zsoobhan.co.uk & &\href{http://zsoobhan.co.uk}{www.zsoobhan.co.uk}\quad\faGlobe\\
     \end{tabular*}
@@ -62,8 +62,8 @@
             \ressubheading{Software and Technologies}{}{}{}
             \vspace{-0.2in}
             \begin{itemize}
-                    \resitem{{\em Web Development}: Django, Django-Oscar, Flask, Fabric, Django CMS, FeinCMS, Google Analytics}
-                    \resitem{{\em Infrastructure}: AWS, Docker, Supervisor, Nginx, Vagrant, RabbitMQ, Nameko, Cron, Apache}
+                    \resitem{{\em Web Dev.}: Django, Django-Oscar, Flask, Fabric, Django CMS, Google Analytics, REST Framework}
+                    \resitem{{\em Infrastructure}: AWS, Docker, Supervisor, Nginx, Vagrant, RabbitMQ, Nameko, Cron, Apache, Celery}
                     \resitem{{\em Data Analysis Packages}: Numpy, Pylab, Matplotlib, Origin, GNUplot}
                     \resitem{{\em Version Control}: Git, Mercurial}
                     \resitem{{\em Continuous Integration}: Jenkins, Gitlab CI, Travis CI, Circle CI, Rundeck, Sentry}
@@ -75,30 +75,38 @@
 
     \resheading{Experience}
     \begin{itemize}
+        \item[]
+            \ressubheading{Senior Developer (Contractor)}{London}{MyOptique Group}{Feb 2018 --- April 2018}
+        \item[]
+            \resdescription{Build server-side REST API in highly complex parallelised and scaled architecture for an internal order tracking and management system.}
+            \begin{itemize}
+                    \resitem{Implementing internal API endpoints using Django Rest Framework to manipulate database resources.}
+                    \resitem{Delivering new features in an existing distributed and multi-threaded environment using RabbitMQ and Celery.}
+                    \resitem{Managing highly complex abstraction layers while refactoring existing codebases to adhere to modern coding practices.}
+            \end{itemize}
 
         \item[]
-            \ressubheading{Senior Developer (Contractor)}{London}{Arts Alliance Media}{Feb 2017 --- Present}
+            \ressubheading{Senior Developer (Contractor)}{London}{Arts Alliance Media}{Feb 2017 --- Dec 2017}
         \item[]
-            \resdescription{Engineering server-side logic in a polyglottic environment with complex architecture.}
+            \resdescription{Engineered server-side logic in a polyglottic environment with software designed for cinema management and film scheduling.}
             \begin{itemize}
-                    \resitem{Implementing complex continuous integration for components engineered in Perl and Python.}
-                    \resitem{Building new tooling and complex abstracted class structures to fulfil technical requirements.}
-                    \resitem{Refactoring existing codebases to adhere to best practices using modern coding practices.}
+                    \resitem{Implemented complex continuous integration for components engineered in Perl and Python.}
+                    \resitem{Built new tooling and complex abstracted class structures to fulfil technical requirements such as new advert selection algorithms.}
+                    \resitem{Worked as part of a team to deliver features within expected deadlines.}
             \end{itemize}
         \item[]
             \ressubheading{Software Developer (Contractor)}{London}{Lystable}{Oct 2016 --- Jan 2017}
         \item[]
-            \resdescription{Engineering server-side logic for software built with a domain-driven micro-service architecture using Flask/Python3.5}
+            \resdescription{Engineering server-side logic for software built with a domain-driven micro-service architecture using Flask/Python3.5 for an employee management solution.}
             \begin{itemize}
                     \resitem{Implemented complex business-critical logic including financial systems.}
                     \resitem{Contributed to discussions regarding the evolution of complex distributed architecture and assessed future implications of design decisions.}
                     \resitem{Provided constructive and objective feedback using procedures such as code-reviews to ensure code quality and sanity within the team.}
-                    \resitem{Worked as part of a team to deliver features within expected deadlines.}
             \end{itemize}
         \item[]
             \ressubheading{Software Developer (Contractor)}{London}{Pancentric Digital}{Feb 2016 --- Oct 2016}
         \item[]
-            \resdescription{Primary full-stack developer on numerous projects engineered in Python/Django with a focus on back-end server-side logic.}
+            \resdescription{Primary full-stack developer on numerous projects engineered in Python/Django with a focus on server-side logic.}
             \begin{itemize}
                     \resitem{Provided support and maintenance on CMS-driven web applications with highly complex business-critical logic.}
                     \resitem{Provided guidance and mentorship to a small team.}
@@ -133,7 +141,7 @@
         \item[]
             \ressubheading{Software Developer (Data Analytics)}{London}{Ubiquity Press (Open-Access Publisher)}{March 2013 --- November 2013}
         \item[]
-            \resdescription{Developed and maintained an exploratory data analysis tool from which business and financial decisions were made in a fast-paced reactive environment with instant feedback from end-users implemented in Django. }
+            \resdescription{Developed and maintained an exploratory data analysis tool for business and financial decisions.}
             \begin{itemize}
                     \resitem{Collated data using various external APIs into a structured database.}
                     \resitem{Performed complex data analysis using mathematical libraries such as Numpy and Matplotlib.}
@@ -141,33 +149,25 @@
                     \resitem{Developed a web API which provided content to a number of academic journals.}
             \end{itemize}
 
-        \item[]
-            \ressubheading{MSci Project}{RHUL Physics Dept.}{Aperture Photometry Project}{Sept 2011 --- March 2012}
-        \item[]
-            \resdescription{Performed complex data analysis in Python (Numpy and Matplotlib) for data collected using astronomical equipment (e.g.\ telescope, thermoelectrically cooled cameras) and produced Colour-Magnitude Diagrams.}
-
-        \item[]
-            \ressubheading{Nanofabrication Lab Assistant}{RHUL Physics Dept.}{SNS Junction Investigation}{July 2011 --- August 2011}
-        \item[]
-            \resdescription{Produced and tested samples with Superconductive-Normal metal-Superconductive (SNS) junctions using electron beam lithography and thin film deposition.}
-
     \end{itemize}
 
     \resheading{Education}
     \begin{itemize}
         \item[]
             \ressubheading{Astrophysics MSci }{Egham, United Kingdom}{Royal Holloway University of London}{2008 --- 2012}
-
-        \item[]
-            \ressubheading{Human Spaceflight and Exploration Course (Pass with Distinction)}{Ume\r{a}, Sweden}{Ume\r{a} University}{2011}
+            \vspace{0.2in}
+            \vspace{0.0in}
+            \resdescription{Aperture Photometry: Performed complex data analysis in Python (Numpy and Matplotlib) on astronomical data.
+            Trained in using high specification equipment  (e.g.\ telescopes, thermoelectrically cooled cameras, electron microscopes etc) and contributed to research in extreme low-temperature physics.}
 
     \end{itemize}
 
     \resheading{Additional Details and Interests}
     \begin{itemize}
-        \item[] I am a native English speaker (with British Passport), fluent in French and Creole.\\
+        \item[]
+            I am a native English speaker (with British Passport), fluent in French and Creole.\\
             I have a passion for rock climbing and enjoy cooking, as well as photography. \\
-            I am a regular DjangoCon attendee.\\
+            I am a regular DjUGL attendee.\\
     \end{itemize}
 
     \textbf{References are available upon request.}
